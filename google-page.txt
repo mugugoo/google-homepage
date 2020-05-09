@@ -45,6 +45,53 @@
   
 <style>
 
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<body>
+
+<header>
+<ul class="nav ul-nav">
+<li>Gmail</li>
+<li>Images</li>
+<li><img></li>
+<li><button> <a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/">connexion</a></button</li>
+  
+</ul>
+  </header>
+  <main> <div id="logo-sear-bar">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  
+    <form><div id="div-sear-bar"><button id="button">s</button>
+      <textarea id="side-sear-bar">type thing here</textarea> </div></form>
+  
+    </div></main>
+  <footer>
+    <div class="nav top-grey"> <ul class="nav"> <li>France<li> </ul> </div>
+ <div class="nav top-grey"> 
+   <ul class="nav">
+     <li href="">Publicité </li>
+      <li>Entreprise</li>
+      <li>A propos</li>
+     <li>Comment fonctionne la recherche google</li>
+   </ul>
+     <ul class="nav ul-nav" >
+       <li>infos consommateur</li>
+       <li>confidentialité</li>
+       <li>Conditions</li>
+       <li>Paramètres</li>
+   </ul>
+  </div>
+    
+  </footer>
+  </body>
+  
+ 
+  
+  
+  
+<style>
+
  body {
   background-color: white;
    display:grid;
