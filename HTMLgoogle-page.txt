@@ -1,0 +1,22 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+
+<header>
+<ul class="nav ul-nav">
+<li>Gmail</li>
+<li>Images</li>
+<li><img></li>
+<li><button> <a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/">connexion</button</li>
+  
+</ul>
+  </header>
+  <main>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <form action=>
+      <div><button submit></button>
+        <textarea>type thing here</textarea></div>
+    </form>
+         </main>
+  <footer>e</footer>
+  </body>

@@ -1,17 +1,133 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<header class="grille"><div style="display:flex" class="spacing"><div >Gmail</div><div>Images</div><img><button></div>
+
+<body>
+
+<header>
+<ul class="nav ul-nav">
+<li>Gmail</li>
+<li>Images</li>
+<li><img></li>
+<li><button> <a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/">connexion</a></button</li>
+  
+</ul>
   </header>
-
+  <main> <div id="logo-sear-bar">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  
+    <form><div id="div-sear-bar"><button id="button">s</button>
+      <textarea id="side-sear-bar">type thing here</textarea> </div></form>
+  
+    </div></main>
+  <footer>
+    <div class="nav top-grey"> <ul class="nav"> <li>France<li> </ul> </div>
+ <div class="nav top-grey"> 
+   <ul class="nav">
+     <li href="">Publicité </li>
+      <li>Entreprise</li>
+      <li>A propos</li>
+     <li>Comment fonctionne la recherche google</li>
+   </ul>
+     <ul class="nav ul-nav" >
+       <li>infos consommateur</li>
+       <li>confidentialité</li>
+       <li>Conditions</li>
+       <li>Paramètres</li>
+   </ul>
+  </div>
+    
+  </footer>
+  </body>
+  
+ 
+  
+  
+  
 <style>
-.grille{
-  position:absolute;
-  right:20px;
-  display:block;
+
+ body {
+  background-color: white;
+   display:grid;
 }
 
-.spacing > *:not(:last-child) {
-  display:block;
+
+header{
+  background-color: hsl(0, 0%, 99%);
+width:100%;
+}
+.ul-nav{
+ float:right; 
+}
+
+.nav >* {  
+    list-style-type: none;
+  display:inline-block;
  margin:0 15px 0 0; 
+    font-size: 0.8em;
+}
+
+main {
+
+  background-color: white;
+  display:block; }
+
+img{
+  background-color:white;
+  width:100%;
+  border-color:blue;
+}
+form {
+
+}
+#logo-sear-bar{
+  padding:0 40%;
+}
+#div-sear-bar {
+  width:100%;
+  margin:auto;
+  background-color:white;
+  border:3px grey solid;
+  border-radius: 10% / 50%;
+ 
+}
+#sear-bar{
+  width:80%;
+  position:relative;
+  left:-15px; top:-15px;
+  
+  background:white;
   
 }
+footer >*{
+  background-color: lightgrey;
+  display:block;
+  width:100%;
+}
+#search-button{
+ 
+}
+ textarea{
+  box-sizing:border-box;
+    border:none;
+  }
+form {
+
+  display:block;
+  margin:auto;
+}
+.top-grey{
+  border-top: 1px grey solid;
+}
+
+#button{
+float:left;
+  position: relative;
+  left:30px;
+  margin:auto;
+  width:auto;
+}
+
+
+
+
 </style>
