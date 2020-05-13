@@ -14,7 +14,7 @@
   <main> <div id="logo-sear-bar">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
   
-    <form action="www.google.com method="post"><div id="div-sear-bar"><button id="button">s</button>
+    <form action="/google.com"><div id="div-sear-bar"><button id="button">s</button>
       <textarea id="side-sear-bar">type thing here</textarea> </div></form>
   
     </div></main>

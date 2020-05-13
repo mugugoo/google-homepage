@@ -1,3 +1,4 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 
 <body>
@@ -14,9 +15,15 @@
   <main> <div id="logo-sear-bar">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
   
-    <form action="www.google.com method="post"><div id="div-sear-bar"><button id="button">s</button>
-      <textarea id="side-sear-bar">type thing here</textarea> </div></form>
-  
+    <form action="https:www.google.com/search" method="get"><div id="div-sear-bar"><img id="glas-sear-bar">
+      <input type="text" id="text-sear-bar"> </div>
+      <div class="center">
+        <button type="submit"> Recherche Google
+        </button>
+        <button> J'ai de la chance
+        </button>
+      </div>
+    </form>
     </div></main>
   <footer>
     <div class="nav top-grey"> <ul class="nav"> <li>France<li> </ul> </div>
@@ -39,12 +46,8 @@
   </body>
   
  
-  
-  
-  
 <style>
-
-  body {
+   body {
   background-color: white;
    display:grid;
 }
@@ -79,25 +82,38 @@ form {
 
 }
 #logo-sear-bar{
-  margin: 10em 0;
   padding:0 40%;
 }
 #div-sear-bar {
+  background-color:blue;
+  align-items:center;
+ text-align:center;
   width:100%;
   margin:auto;
   background-color:white;
-  border:3px grey solid;
-  border-radius: 10% / 50%;
+  border:2px grey solid;
+  border-radius: 5% / 50%;
+  
  
 }
-#side-sear-bar{
-  width:70%;
+#sear-bar{
+  width:80%;
   position:relative;
-  left:25px; 
+  left:-15px; top:-15px;
   background:white;
-  
 }
-footer >*{
+ .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+ 
+}
+
+button {
+     margin: 2em 1em;
+}
+footer {position:absolute; bottom:0px; left:0px;;
   background-color: lightgrey;
   display:block;
   width:100%;
@@ -105,10 +121,9 @@ footer >*{
 #search-button{
  
 }
- textarea{
+ #text-sear-bar{
   box-sizing:border-box;
     border:none;
-   
   }
 form {
 
@@ -118,14 +133,11 @@ form {
 .top-grey{
   border-top: 1px grey solid;
 }
-
-#button{
-float:left;
-  position: relative;
-  left:30px;
-  margin:auto;
-  width:auto;
+#butt-sear-bar{
+  background-color:blue;
+ display:flex;
 }
+
 
 
 

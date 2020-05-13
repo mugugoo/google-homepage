@@ -1,0 +1,4 @@
+#!/bin/sh
+mv google-homepage.html google-homepage.txt
+cp google-page.txt google-homepage.txt
+mv google-homepage.txt google-homepage.html
